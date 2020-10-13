@@ -1,0 +1,23 @@
+# Criar migration
+yarn typeorm migration:create -n create_orphanages
+
+# Roda migrations
+yarn typeorm migration:run
+
+# Reverte migration
+yarn typeorm migration:revert
+
+
+
+
+
+
+{
+    "name": "Lar das meninas",
+    "latitude": -22.3552536,
+    "longitude": -49.060165,
+    "about": "Sobre o orfanato",
+    "instructions": "Venha visitar",
+    "opening_hours": "Das 8:00h até 18:00",
+    "open_on_weekends": false
+}
