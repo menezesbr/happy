@@ -25,7 +25,6 @@ function OrphanageMap() {
         })
     }, []);
 
-
     return (
         <div id="page-map">
             <aside>
